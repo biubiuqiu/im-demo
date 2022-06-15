@@ -21,7 +21,7 @@ public class TimerSocketMessage {
     /**
      * 推送消息到前台
      */
-    @Scheduled(fixedRate = 2000)
+    //@Scheduled(fixedRate = 2000)
     public void SocketMessage(){
         Map<String, Object> maps = new HashMap<>();
         maps.put("type", "sendMessage");
